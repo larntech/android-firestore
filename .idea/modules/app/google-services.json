@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "780761146942",
+    "firebase_url": "https://firestore-60f07.firebaseio.com",
+    "project_id": "firestore-60f07",
+    "storage_bucket": "firestore-60f07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780761146942:android:4c62a01e0ed129429e536f",
+        "android_client_info": {
+          "package_name": "net.larntech.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780761146942-r6begr89t61u1k1kfvsgrs1dcp7ac6eh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.larntech.firestore",
+            "certificate_hash": "e722ac2d06ed2c2846a3dfb89b0257d3e07ea39a"
+          }
+        },
+        {
+          "client_id": "780761146942-iuf0hjcl0h608r7k1c614fvngva245sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBWhl92ixZFel7J9amK58-zeZ-_5xuarg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780761146942-iuf0hjcl0h608r7k1c614fvngva245sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
