@@ -30,19 +30,15 @@ class MainActivity : AppCompatActivity() {
 
     fun  addUserToFireStore(username:String,useremail:String,userphone:String){
 
-        val user = hashMapOf("UserName" to username, "UserEmail" to useremail, "UserPhone" to userphone);
+        val user = hashMapOf("userName" to username, "userEmail" to useremail, "userPhone" to userphone);
 
         fStore.collection("users")
-            .document("4")
-            .set(user as Map<String, Any>)
+            .add(user as Map<String, Any>)
             .addOnSuccessListener { documentReference ->
                 Toast.makeText(this,"Successful ", Toast.LENGTH_LONG).show();
-//                Log.e("Success ", " ID "+documentReference.id);
             }
             .addOnFailureListener {exception ->
                 Toast.makeText(this,"Failed to add ", Toast.LENGTH_LONG).show();
-                Log.e("Error ", exception.message);
-
 
             }
 
